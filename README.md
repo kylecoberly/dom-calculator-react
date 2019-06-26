@@ -1,3 +1,9 @@
+## React DOM Calculator
+
+This app is a refactored version of the DOM Calculator rewritten in React.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
