@@ -1,0 +1,18 @@
+#screen-container {
+  background: #5E626D;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#screen {
+  background: rgb(239, 217, 93);
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.4em;
+  font-weight: 600;
+  height: 23px;
+  overflow: hidden;
+  padding: 12px 15px;
+  width: 265px;
+  z-index: 1;
+}

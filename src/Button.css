@@ -1,0 +1,44 @@
+#zero {
+  width: 225px;
+}
+
+#clear {
+  background: rgb(207, 67, 67);
+  width: 147px;
+}
+
+#clear:active {
+  background-color: #E67E22;
+}
+
+#equals {
+  height: 89px;
+}
+
+
+.buttons span {
+  background: rgb(146, 137, 207);
+  border-radius: 20px;
+  border: none;
+  box-shadow: inset 0px 1px 0px #5E626D, 0px 5px 0px 0px #45637F;
+  cursor: pointer;
+  float: left;
+  font-family: 'Oswald', sans-serif;
+  width: 70px;
+  height: 40px;
+  margin: 0 7px 11px 0;
+  line-height: 40px;
+  text-align: center;
+}
+
+.buttons span:active {
+  background-color: #4AA3DF;
+  top: 3px;
+  box-shadow: inset 0px 1px 0px #5E626D, 0px 2px 0px 0px #45637F;
+}
+
+.operator {
+  font-size: 1.3em;
+}
+
+
