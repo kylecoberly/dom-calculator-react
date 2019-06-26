@@ -16,10 +16,12 @@ export default class Calculator extends Component {
         return !this.isCharacterOperator(character)
     }
     isLastEntryOperator = () => {
-        return this.isCharacterOperator(this.state.currentEntry.substr(-1))
+        return this.state.currentEntry.length > 0
+            && this.isCharacterOperator(this.state.currentEntry.substr(-1))
     }
     isLastEntryNumber = () => {
-        return !this.isLastEntryOperator()
+        return this.state.currentEntry.length > 0
+            && !this.isLastEntryOperator()
     }
     add = character => {
         this.setState(state => {
